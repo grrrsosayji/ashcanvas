@@ -207,6 +207,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   base: "/ashcanvas/",
+  base: "/ashcanvas/",
   plugins,
   resolve: {
     alias: {
